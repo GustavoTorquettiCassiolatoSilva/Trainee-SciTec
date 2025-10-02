@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(245, 245, 245);
+}
+
+header {
+  margin: -10px;
+  background: #541520;
+  height: 120px; 
+  display: flex;
+  align-items: center;
+  position: relative; 
+  padding: 0 20px; /* Espaço entre o texto e as bordas */ 
+}
+header h1 {
+  color: white; 
+}
+
+header nav a, span { 
+  color: white; 
+  position: relative;
+  top: -8px;
+}
+
+.introducao {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 10px;
+  padding-top: 10px;
+  text-align: left;
+  width: 70%;
+  font-size: large;
+}
+
+.Hobbies {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 10px;
+}
+
+.Hobbies li {
+  font-size: 18px;
+}
